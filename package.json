@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "type": "module",
-  "licenses": "ISC",
   "scripts": {
-    "start": "ts-node-dev"
+    "dev": "tsnd ./src/shared/data/http/server.ts --inspect --ignore-watch node_modules/ --transpile-only"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
